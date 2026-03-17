@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-c-dark: #353935;
+  --color-c-primary: #2e9bfe;
+  --color-c-primary-light: #b4ddff;
+}
+
+.btn-primary {
+  background: var(--color-c-primary);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 4px 14px 0 var(--color-c-primary-light);
+}

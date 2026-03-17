@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AI Page Assistant",
+  "version": "1.0",
+  "description": "Summarize and explain web pages with AI",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://api.anthropic.com/*"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
